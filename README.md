@@ -8,8 +8,13 @@ Run the following commands in the root directory.
 yarn
 yarn start
 ```
+or 
+```bash
+npm
+npm start
+```
 
-Both `app1` and `app2` are independently deployed apps:
+Both `accounting`, `inventory` and `report`  are independently deployed apps:
 
 - `main`: http://localhost:8080
 - `accounting`: http://localhost:3001
