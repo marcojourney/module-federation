@@ -11,8 +11,10 @@ yarn start
 
 Both `app1` and `app2` are independently deployed apps:
 
-- `app1`: http://localhost:3001
-- `app2`: http://localhost:3002
+- `main`: http://localhost:8080
+- `accounting`: http://localhost:3001
+- `inventory`: http://localhost:3002
+- `report`: http://localhost:3003
 
 Check out this link below for more examples:
 
