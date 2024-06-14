@@ -1,0 +1,21 @@
+{
+  "name": "module-federation",
+  "private": true,
+  "workspaces": {
+    "packages": ["main", "accounting", "inventory", "report"]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "tailwindcss": "^3.4.4"
+  }
+}
