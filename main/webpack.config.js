@@ -29,11 +29,14 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'main',
       remotes: {
-        app1: 'app1@[app1Url]/remoteEntry.js',
-        app2: 'app2@[app2Url]/remoteEntry.js',
+        accounting: 'accounting@[accountingUrl]/remoteEntry.js',
+        inventory: 'inventory@[inventoryUrl]/remoteEntry.js',
         report: 'report@[reportUrl]/remoteEntry.js',
       },
-      shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
+      shared: { 
+        react: { singleton: true }, 
+        'react-dom': { singleton: true },
+      },
     }),
     new ExternalTemplateRemotesPlugin(),
     new HtmlWebpackPlugin({

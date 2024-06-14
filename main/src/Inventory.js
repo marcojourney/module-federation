@@ -1,10 +1,10 @@
 import React, { Suspense } from 'react';
-const RemoteApp2 = React.lazy(() => import('app2/App'));
+const RemoteInventoryApp = React.lazy(() => import('inventory/App'));
 
 const Accounting = () => {
   return (
     <Suspense fallback={<div>loading...</div>}>
-      <RemoteApp2 />
+      <RemoteInventoryApp />
     </Suspense>
   );
 };
