@@ -2,7 +2,7 @@
   "name": "module-federation",
   "private": true,
   "workspaces": {
-    "packages": ["main", "accounting", "inventory", "report"]
+    "packages": ["main", "inventory", "accounting", "report"]
   },
   "scripts": {
     "start": "lerna run --parallel start",

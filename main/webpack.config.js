@@ -29,8 +29,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'main',
       remotes: {
-        accounting: 'accounting@[accountingUrl]/remoteEntry.js',
         inventory: 'inventory@[inventoryUrl]/remoteEntry.js',
+        accounting: 'accounting@[accountingUrl]/remoteEntry.js',
         report: 'report@[reportUrl]/remoteEntry.js',
       },
       shared: { 
