@@ -13,9 +13,6 @@ function Layout() {
             <Link to="/inventory">Inventory</Link>
           </li>
           <li>
-            <Link to="/hr">HR</Link>
-          </li>
-          <li>
             <Link to="/report">Report</Link>
           </li>
         </ul>

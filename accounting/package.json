@@ -1,12 +1,11 @@
 {
   "name": "accounting",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --mode production",
-    "build:test": "webpack --config webpack.prod.js"
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "react": "^17.0.2",
