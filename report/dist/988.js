@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreport=self.webpackChunkreport||[]).push([[988],{988:(e,t,r)=>{r.r(t),r.d(t,{default:()=>l});var n=r(215),a=r.n(n);const l=()=>a().createElement("div",{style:{margin:"10px",padding:"10px",textAlign:"center",backgroundColor:"cyan"}},a().createElement("h1",null,"Report"))}}]);

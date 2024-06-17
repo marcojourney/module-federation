@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaccounting=self.webpackChunkaccounting||[]).push([[988],{988:(e,n,a)=>{a.r(n),a.d(n,{default:()=>t});var c=a(215),l=a.n(c);a(869),a(296),a(946);const t=()=>l().createElement("h1",null,"Hello Cambodia")},296:(e,n,a)=>{a(215)},869:(e,n,a)=>{a(215)},946:(e,n,a)=>{a(215)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinventory=self.webpackChunkinventory||[]).push([[988],{988:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});var r=t(215),a=t.n(r);const l=()=>a().createElement("div",{style:{margin:"10px",padding:"10px",textAlign:"center",backgroundColor:"cyan"}},a().createElement("h1",null,"Inventory"))}}]);
