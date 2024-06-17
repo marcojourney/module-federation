@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChartAccountList = () => {
+const ChartAccountList = (props) => {
   const accounts = [
     { id: 1, name: 'Cash', code: '1010', type: 'asset' },
     { id: 2, name: 'Accounts Receivable', code: '1100', type: 'asset' },
@@ -61,7 +61,7 @@ const ChartAccountList = () => {
       <div className="flex justify-between mb-2">
         <h2 className="text-xl font-bold">Chart of Accounts</h2>
         <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700">
-          Create New
+          Create New {props.token}
         </button>
       </div>
       <table className="w-full border-collapse">

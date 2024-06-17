@@ -7,7 +7,7 @@ module.exports = {
   mode: 'production',
   devServer: {
     static: path.join(__dirname, 'dist'),
-    port: 3003,
+    port: 3004,
   },
   output: {
     publicPath: 'auto',

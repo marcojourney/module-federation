@@ -2,18 +2,29 @@
   "name": "module-federation",
   "private": true,
   "workspaces": {
-    "packages": ["main", "inventory", "accounting", "report"]
+    "packages": [
+      "main",
+      "inventory",
+      "accounting",
+      "hr",
+      "report"
+    ]
   },
   "scripts": {
     "start": "lerna run --parallel start",
     "build": "lerna run build"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "lerna": "^4.0.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "webpack-manifest-plugin": "^5.0.0"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
     "tailwindcss": "^3.4.4"

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhr=self.webpackChunkhr||[]).push([[988],{988:(e,n,r)=>{r.r(n),r.d(n,{default:()=>c});var t=r(215),a=r.n(t);const c=()=>a().createElement("div",{style:{margin:"10px",padding:"10px",textAlign:"center",backgroundColor:"cyan"}},a().createElement("h1",null,"Human Resource"))}}]);

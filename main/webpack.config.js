@@ -31,6 +31,7 @@ module.exports = {
       remotes: {
         inventory: 'inventory@[inventoryUrl]/remoteEntry.js',
         accounting: 'accounting@[accountingUrl]/remoteEntry.js',
+        hr: 'hr@[hrUrl]/remoteEntry.js',
         report: 'report@[reportUrl]/remoteEntry.js',
       },
       shared: { 
