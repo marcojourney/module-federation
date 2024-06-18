@@ -1,0 +1,34 @@
+name: Deploy to DigitalOcean App Platform
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React app
+        run: npm run build  # Adjust if you use a different command
+
+      - name: Deploy to DigitalOcean App Platform
+        uses: digitalocean/app_action@v1
+        with:
+          # Replace with your DigitalOcean Personal Access Token
+          do_api_token: ${{ secrets.DO_API_TOKEN }}
+          # Replace with your app name on DigitalOcean
+          app_name: erp-hub
+          # (Optional) Set a custom build directory path
+          # build_dir: build  # Adjust if you have a custom build path
+
