@@ -23,7 +23,7 @@ jobs:
         run: npm run build  # Adjust if you use a different command
 
       - name: Deploy to DigitalOcean App Platform
-        uses: digitalocean/app_action@v1
+        uses: digitalocean/app_action@v1.1.5
         with:
           # Replace with your DigitalOcean Personal Access Token
           do_api_token: ${{ secrets.DO_API_TOKEN }}
